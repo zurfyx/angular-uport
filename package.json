@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "postinstall": "node patch.js",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
@@ -22,6 +23,7 @@
     "@angular/router": "^6.0.0",
     "core-js": "^2.5.4",
     "rxjs": "^6.0.0",
+    "uport-connect": "^1.1.0-alpha.12",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
