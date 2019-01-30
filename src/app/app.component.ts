@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { Connect } from 'uport-connect';
+import registerResolver from 'ethr-did-resolver';
+
+registerResolver();
 
 @Component({
   selector: 'app-root',
